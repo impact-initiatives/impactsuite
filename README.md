@@ -5,7 +5,7 @@ A meta package including all IMPACT Initiative standard R packages; similar to t
 this package has all main packages developed by IMPACT Initiatives as a dependency, so you can install this to install all IMPACT packages:
 
 ```
-devtools::install_github("impact-initiatives-research/impactsuite", build_vignettes = TRUE)
+devtools::install_github("impact-initiatives/impactsuite", build_vignettes = TRUE)
 ```
 
 Similar, instead of loading these packages individually, you can load them at once with:
@@ -19,45 +19,45 @@ library(impactsuite)
 The suite contains the following packages:
 
 - stable and in use:
-    - [msni19](https://github.com/impact-initiatives-research/msni19)
-    - [hypegrammaR](https://github.com/impact-initiatives-research/hypegrammaR)
-    - [Setviz](https://github.com/impact-initiatives-research/Setviz)
-    - [surveyweights](https://github.com/impact-initiatives-research/surveyweights)
-    - [questionnaireHTML](https://github.com/impact-initiatives-research/questionnaireHTML)
-    - [koboquest](https://github.com/impact-initiatives-research/koboquest)
-    - [xlsformfill](https://github.com/impact-initiatives-research/xlsformfill)
-    - [cleaninginspectoR](https://github.com/impact-initiatives-research/cleaninginspectoR)
-    - [kobostandards](https://github.com/impact-initiatives-research/kobostandards)
-    - [composr](https://github.com/impact-initiatives-research/composr)
-    - [mergekobodata](https://github.com/impact-initiatives-research/mergekobodata)
-    - [visualisationIMPACT](https://github.com/impact-initiatives-research/visualisationIMPACT)
+    - [msni19](https://github.com/impact-initiatives/msni19)
+    - [hypegrammaR](https://github.com/impact-initiatives/hypegrammaR)
+    - [Setviz](https://github.com/impact-initiatives/Setviz)
+    - [surveyweights](https://github.com/impact-initiatives/surveyweights)
+    - [questionnaireHTML](https://github.com/impact-initiatives/questionnaireHTML)
+    - [koboquest](https://github.com/impact-initiatives/koboquest)
+    - [xlsformfill](https://github.com/impact-initiatives/xlsformfill)
+    - [cleaninginspectoR](https://github.com/impact-initiatives/cleaninginspectoR)
+    - [kobostandards](https://github.com/impact-initiatives/kobostandards)
+    - [composr](https://github.com/impact-initiatives/composr)
+    - [mergekobodata](https://github.com/impact-initiatives/mergekobodata)
+    - [visualisationIMPACT](https://github.com/impact-initiatives/visualisationIMPACT)
 - experimental:
-    - [odktidy](https://github.com/impact-initiatives-research/odktidy)
-    - [clog](https://github.com/impact-initiatives-research/clog)
+    - [odktidy](https://github.com/impact-initiatives/odktidy)
+    - [clog](https://github.com/impact-initiatives/clog)
 - HQ use only:
-    - [researchcyclematrix](https://github.com/impact-initiatives-research/researchcyclematrix)
+    - [researchcyclematrix](https://github.com/impact-initiatives/researchcyclematrix)
 
 
 
 
 ## Package documentation
 
-- [Full reference manual pdfs for all IMPACT packages](https://github.com/impact-initiatives-research/impactsuite/tree/master/inst) can be found in the `./inst` directory of this repository.
-    - [msni19 reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/msni19_0.1.0.pdf)
-    - [hypegrammaR  reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/hypegrammaR_0.2.2.pdf)
-    - [Setviz reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/Setviz_0.1.0.pdf)
-    - [surveyweights reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/surveyweights_0.2.0.pdf)
-    - [questionnaireHTML reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/character(0))
-    - [koboquest reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/koboquest_1.0.1.pdf)
-    - [xlsformfill reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/xlsformfill_0.1.0.pdf)
-    - [cleaninginspectoR reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/cleaninginspectoR_0.0.0.9000.pdf)
-    - [kobostandards reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/kobostandards_0.1.0.9000.pdf)
-    - [composr reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/composr_0.1.1.pdf)
-    - [mergekobodata reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/mergekobodata_0.1.0.9000.pdf)
-    - [visualisationIMPACT reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/visualisationIMPACT_0.1.0.pdf)
-    - [odktidy reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/odktidy_0.1.0.pdf)
-    - [clog reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/clog_0.1.0.pdf)
-    - [researchcyclematrix reference manual](https://github.com/impact-initiatives-research/impactsuite/raw/master/inst/researchcyclematrix_0.2.3.pdf)
+- [Full reference manual pdfs for all IMPACT packages](https://github.com/impact-initiatives/impactsuite/tree/master/inst) can be found in the `./inst` directory of this repository.
+    - [msni19 reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/msni19_0.1.0.pdf)
+    - [hypegrammaR  reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/hypegrammaR_0.2.2.pdf)
+    - [Setviz reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/Setviz_0.1.0.pdf)
+    - [surveyweights reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/surveyweights_0.2.0.pdf)
+    - [questionnaireHTML reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/character(0))
+    - [koboquest reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/koboquest_1.0.1.pdf)
+    - [xlsformfill reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/xlsformfill_0.1.0.pdf)
+    - [cleaninginspectoR reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/cleaninginspectoR_0.0.0.9000.pdf)
+    - [kobostandards reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/kobostandards_0.1.0.9000.pdf)
+    - [composr reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/composr_0.1.1.pdf)
+    - [mergekobodata reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/mergekobodata_0.1.0.9000.pdf)
+    - [visualisationIMPACT reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/visualisationIMPACT_0.1.0.pdf)
+    - [odktidy reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/odktidy_0.1.0.pdf)
+    - [clog reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/clog_0.1.0.pdf)
+    - [researchcyclematrix reference manual](https://github.com/impact-initiatives/impactsuite/raw/master/inst/researchcyclematrix_0.2.3.pdf)
 
 
 ## Impactsuite functions

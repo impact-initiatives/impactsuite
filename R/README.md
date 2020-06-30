@@ -4,7 +4,7 @@
 this package has all main packages developed by IMPACT Initiatives as a dependency, so you can install this to install all IMPACT packages:
 
 ```
-devtools::install_github("impact-initiatives-research/impactsuite", build_vignettes = TRUE)
+devtools::install_github("impact-initiatives/impactsuite", build_vignettes = TRUE)
 ```
 
 ## Included Packages
